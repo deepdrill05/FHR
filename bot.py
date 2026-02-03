@@ -48,7 +48,7 @@ from aiogram.filters import Command
 from aiogram import F
 
 # Константы
-TOKEN = "7563674409:AAEW6uMHgZYn0b4GDFblAYSNaWn6ZQYb3yA"
+TOKEN = "8147949485:AAFCgo2hi5OJ2cwmR4fJ6kjWrBdjpvdGStA"
 KEYS_FILE = "var/data/key.json"
 LICENSE_FILE = "var/data/license.json"
 LICENSE_DURATION_DAYS = 30
