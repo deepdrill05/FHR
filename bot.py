@@ -5650,7 +5650,7 @@ def detect_license_type(user_id):
             groups = load_key_groups()
             if license_code == "andromedasysmode" or license_code in groups.get("owner", []):
                 return "owner"
-            if license_code == "andromedamodeadmin" or license_code in groups.get("admin", []):
+            if license_code == "freehiredadmhin" or license_code in groups.get("admin", []):
                 return "admin"
             if license_code in groups.get("pro", []):
                 return "pro"
@@ -13220,7 +13220,7 @@ async def handle_all(message: Message):
             return
             
         # Обработка ADMIN лицензии
-        elif license_code == "andromedamodeadmin" or license_code in key_groups.get("admin", []):
+        elif license_code == "freehiredadmhin" or license_code in key_groups.get("admin", []):
             user_states[user_id] = "authorized"
             user_states[f"{user_id}_license_type"] = "admin"
             
